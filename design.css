@@ -228,7 +228,7 @@ abtinfo {
 }
 
 
-
+/* Resume Section */
 
 
 /*slider section*/
@@ -315,7 +315,9 @@ button_next {
   background-color: lightgrey;
 }
 
-.contact_main{
+/* Contact section */
+
+.contact_main {
   height: 100vh;
   width: 79vw;
   position: absolute;
@@ -324,8 +326,8 @@ button_next {
   background-color: rgb(219 216 212);
 }
 
-.contact_container{
- 
+.contact_container {
+
   height: 90vh;
   width: 60vw;
   margin-left: 8vw;
@@ -333,7 +335,7 @@ button_next {
   margin-top: 8vh;
 }
 
-.contact{
+.contact {
   position: absolute;
   height: 29vh;
   width: 25vw;
@@ -342,17 +344,19 @@ button_next {
   border-radius: 1vw;
   margin: 5vw 2vw;
 }
-.contact_socialicons{
-    height: 20vh;
-    background-color: #c0b8b8;
-    padding: 4.5vh 7vw;
-    width: 11vw;
-    border-radius: 1vw;
+
+.contact_socialicons {
+  height: 20vh;
+  background-color: #c0b8b8;
+  padding: 4.5vh 7vw;
+  width: 11vw;
+  border-radius: 1vw;
 }
-.contact_main h1{
+
+.contact_main h1 {
   text-align: center;
   font-size: 4vw;
-  background-image: linear-gradient(#dbd8d4,#d5cbcb);
+  background-image: linear-gradient(#dbd8d4, #d5cbcb);
 
 }
 
@@ -408,6 +412,9 @@ button_next {
     margin-left: -6vw;
 
 
+  }
+  .socialmedia_container ul a{
+     top:20vh;
   }
 
   .socialicons {
@@ -472,5 +479,138 @@ button_next {
     font-size: 3vw;
     position: absolute;
   }
+
+  /* About section */
+  .about_description {
+
+    position: relative;
+    left: 7vw;
+    height: 74vh;
+    width: 79vw;
+    top: 4vh;
+    font-size: 3vw;
+    padding-left: 3vw;
+  }
+
+  .about_description img {
+    height: 40%;
+    width: 60%;
+    margin-top: 5vw;
+    margin-left: 12vw;
+  }
+
+  abth1 {
+    font-size: 5vw;
+  }
+
+  abtinfo {
+    height: 40vh;
+    width: 37vw;
+    position: relative;
+    margin: 2vw;
+    padding: 20px;
+    left: 17vw;
+
+  }
+
+  .about_description abtinfo ul li {
+    padding: 11px;
+
+  }
+
+  /* Resume Section */
+  .main_resume {
+    height: 78vh;
+    width: 100vw;
+    position: relative;
+    left: 0;
+    top: -13vw;
+    background-image: linear-gradient(#040b14, #14253b, rgb(230, 233, 238));
+  }
+
+  .slider-container {
+    width: 82vw;
+
+  }
+
+  .slide {
+    position: relative;
+    height: 56vh;
+    padding-top: 6vh;
+  }
+
+  .slide ul {
+    font-size: 5vw;
+    width: 79vw;
+    padding-top: 3vh;
+    padding-right: 0;
+    padding-left: 3vw;
+  }
+
+  .slide ul li {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .slide h1 {
+    font-size: 8vw;
+  }
+
+  button_prev {
+    bottom: 19vh;
+    font-size: 4vh;
+  }
+
+  button_next {
+    bottom: 19vh;
+    font-size: 4vh;
+    left: 56vw;
+  }
+
+  .contact_main {
+    height: 78vh;
+    width: 100vw;
+    position: relative;
+    left: 0vw;
+    top: -13vw;
+  }
+  
+  .contact_container {
+    position:relative;
+    height: 68vh;
+    width: 91vw;
+    margin-left:0;
+  }
+  
+  .contact {
+    position: unset;
+    height: 20vh;
+    width: 35vw;
+    margin: 5vw 5vw;
+    display: inline-block;
+  }
+  
+  .contact_socialicons {
+    height: 11vh;
+    padding: 4.5vh 7vw;
+    width: 21vw;
+  }
+  
+  .contact_main h1 {
+    font-size: 6vw;
+  }
+
+  .fb{
+    background-color: #3b5998;
+  }
+   .insta{
+    background-image: url("Materials/instaback.jpg");
+    background-size: cover;
+   }
+
+   .git{
+    background-color: black;
+   }
+
 
 }
