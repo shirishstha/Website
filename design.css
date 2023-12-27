@@ -163,13 +163,31 @@
   font-size: 5vw;
   color: white;
 
-
 }
 
 .maintext p {
+  width:19vw;
   font-size: 2vw;
+  border-right: 0.2vw solid ;
+  display:inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation:
+          typing 3s steps(30),
+          cursor .8s step-end infinite;
 }
 
+@keyframes cursor{
+  50%{
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from{
+    width:0;
+  }
+}
 /* about section*/
 
 .about_description {
@@ -458,6 +476,7 @@ button_next {
 
   .maintext p {
     font-size: 6vw;
+    width:36vw;
   }
 
   .navmenu li {
